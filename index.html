@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <header class="site-header" id="siteHeader">
+    <nav class="nav">
+      <a href="#hero" class="brand">Portfolio</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#branding">Brand</a>
+        <a href="#works">works</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+        <source src="assets/video/main.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-inner">
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#branding">View Work</a>
+          <a class="btn btn-secondary" href="#about">About Me</a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">Scroll</div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal reveal-scale">
+          <div>
+            <span class="eyebrow">About</span>
+            <h2>감각적인 브랜드 경험을 프레임 위에 설계합니다.</h2>
+          </div>
+          <!-- <p>
+            단순한 자기소개가 아니라, 경력·작업 방향·도구 역량을 동시에 보여줄 수 있도록 설계한 영역입니다.
+          </p> -->
+        </div>
+
+        <div class="about-grid">
+          <article class="card profile-card reveal reveal-left">
+            <div class="profile-media" style="background:
+                radial-gradient(circle at 30% 20%, rgba(50,199,161,0.18), transparent 22%),
+                radial-gradient(circle at 70% 30%, rgba(123,140,255,0.18), transparent 24%),
+                linear-gradient(145deg, #ffffff 0%, #edf3fa 100%);
+                position: relative; overflow: hidden;">
+              <div style="position:absolute; inset:18px; border:1px solid rgba(17,24,39,0.06); border-radius:22px;">
+                <video class="thumb-video" autoplay loop muted playsinline preload="metadata">
+                  <source src="assets/video/profile.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div style="position:absolute; bottom:40px; left:40px; z-index:1; text-align:left; color:#fff;">
+                <strong style="display:block; color:#fff; font-size:1.1rem; margin-bottom:8px;">Profile
+                  Visual</strong>
+                <span>Image / Motion Portrait Placeholder</span>
+              </div>
+            </div>
+            <div class="profile-body">
+              <strong>윤소영</strong>&nbsp;<span style="color:var(--text-muted);"> | &nbsp;Designer · Web Publisher</span><br />
+              <span style="color: var(--text-muted);">GTQ 1급 · 컴퓨터활용능력 1급</span>
+            </div>
+          </article>
+
+          <article class="card about-body reveal reveal-right">
+            <h3>브랜드의 색깔을 구조화된 화면 경험으로 표현합니다.</h3>
+            <p>
+              브랜드의 특성과 목적을 화면의 구조와 흐름으로 정리해 하나의 일관된 경험으로 만듭니다.
+              단순한 시각 표현을 넘어, 사용자에게 자연스럽게 전달되고 기억되는 장면을 설계합니다.
+            </p>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-year">2026</div>
+                <div class="timeline-role">
+                  <strong>부산나래디자인학원 콘텐츠융합(UIUX, 웹퍼블리셔, 영상) 과정 수료</strong>
+                  <span>브랜드 중심 적응형 & 반응형 웹페이지 구현</span>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-year">2021.10. - 2022.12.</div>
+                <div class="timeline-role">
+                  <strong>(주)내풀로스 근무</strong>
+                  <span>관공서 중심 웹 퍼블리셔 업무</span>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-year">2019.10. - 2021.03.</div>
+                <div class="timeline-role">
+                  <strong>(주)토리아띠 근무</strong>
+                  <span>프론트엔드 웹/앱 디자인 및 각종 디자인 사무</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills">
+              <section class="skill-group">
+                <h4>Design</h4>
+                <div class="skill-tags">
+                  <span class="tag"><img src="./assets/img/ico_photoshop.png" alt="photoshop"></span>
+                  <span class="tag"><img src="./assets/img/ico_illustrator.png" alt="illustrator"></span>
+                  <span class="tag"><img src="./assets/img/ico_premiere.png" alt="premiere"></span>
+                  <span class="tag"><img src="./assets/img/ico_figma.png" alt="figma"></span>
+                </div>
+              </section>
+              <section class="skill-group">
+                <h4>Frontend</h4>
+                <div class="skill-tags">
+                  <span class="tag"><img src="./assets/img/ico_html_icon.png" alt="html"></span>
+                  <span class="tag"><img src="./assets/img/ico_css_icon.png" alt="css"></span>
+                  <span class="tag"><img src="./assets/img/ico_js_icon.png" alt="js"></span>
+                </div>
+              </section>
+              <section class="skill-group">
+                <h4>AI Workflow</h4>
+                <div class="skill-tags">
+                  <span class="tag"><img src="./assets/img/ico_gpt.png" alt="gpt"></span>
+                  <span class="tag"><img src="./assets/img/ico_gemini.png" alt="css"></span>
+                  <span class="tag"><img src="./assets/img/ico_labs.png" alt="js"></span>
+                </div>
+              </section>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="branding">
+      <div class="container">
+        <div class="section-head reveal reveal-scale">
+          <div>
+            <span class="eyebrow">Branding Projects</span>
+            <h2>브랜드의 인상을 디자인합니다.</h2>
+          </div>
+          <p>
+            브랜드마다 다른 분위기와 특징을 화면에 자연스럽게 담아낸 작업들입니다.
+            <br>각 프로젝트의 목적에 맞는 흐름과 구성으로 기억에 남는 경험으로 완성했습니다.
+          </p>
+        </div>
+
+        <div class="brand-stack">
+          <section class="card brand-row reveal reveal-scale">
+            <div class="brand-info">
+              
+              <h3>interweave</h3>
+              <p>
+                뜨개 전용 카페 브랜드의 컨셉 기획과 웹사이트 결과물을 시각적으로 담았습니다.
+              </p>
+              <div class="brand-meta">
+                 <span class="tag"><a href="./interweave/guide/bibx/guide.html" target="_blank">Brand Planning</a></span>
+                <span class="tag"><a href="./interweave/guide/mockup/guide.html" target="_blank">Mockup</a></span>
+                <span class="tag"><a href="./interweave/guide/web/guide.html" target="_blank">Web Guide</a></span>
+                <span class="tag"><a href="https://ysoyeong96.github.io/interweave/" target="_blank">Web Site</a></span>
+                <span class="tag"><a href="#" target="_blank">Video Guide</a></span>
+              </div>
+            </div>
+
+            <div>
+              <div class="brand-slider-head">
+                <span class="brand-slider-title">Brand Planning · Mockup · Web Guide · Website</span>
+                <div class="slider-controls">
+                  <button class="slider-btn" type="button" data-slider-prev="brandTrack01">←</button>
+                  <button class="slider-btn" type="button" data-slider-next="brandTrack01">→</button>
+                </div>
+              </div>
+              <div class="brand-track slider-track" id="brandTrack01">
+
+                <article class="thumb-card brand-thumb">
+
+                  <div class="thumb-image">
+                    <a href="./interweave/guide/bibx/guide.html" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/interweave_bibx.mp4" type="video/mp4" />
+                </video>
+                  </div>
+                  <div class="thumb-overlay"><strong>Brand Planning</strong><span>Concept / Tone / Strategy</span></div>
+                  </a>
+                </article>
+
+                <article class="thumb-card brand-thumb">
+                  <a href="./interweave/guide/mockup/guide.html" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/interweave_mockup.mp4" type="video/mp4" />
+                </video>
+                    <!-- 
+                    <img src="assets/img/brand_thumbnail_sample.jpg" alt="brand">
+                   -->
+                    <div class="thumb-overlay"><strong>Mockup</strong><span>Packaging</span></div>
+                  </a>
+                </article>
+
+                <article class="thumb-card brand-thumb">
+                  <a href="./interweave/guide/web/guide.html" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/interweave_guide.mp4" type="video/mp4" />
+                </video>
+                    <div class="thumb-overlay"><strong>Web Guide</strong><span>IA / UI / Structure</span></div>
+                  </a>
+                </article>
+
+                <article class="thumb-card brand-thumb">
+                  <!-- <video class="thumb-video" autoplay muted loop playsinline><source src="assets/brand-01-site.mp4" type="video/mp4" /></video> -->
+                  <a href="https://ysoyeong96.github.io/interweave/" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/interweave_web.mp4" type="video/mp4" />
+                </video>
+                    <div class="thumb-overlay"><strong>Website</strong><span>Live Screen / Publishing</span></div>
+                  </a>
+                </article>
+
+                <!-- <article class="thumb-card brand-thumb">
+                  <a href="#" target="_blank">
+                    <img src="assets/img/brand_thumbnail_sample.jpg" alt="brand">
+                    <div class="thumb-overlay"><strong>SNS Campaign</strong><span>Social / Promo Visual</span></div>
+                  </a>
+                </article> -->
+<!-- 
+                <article class="thumb-card brand-thumb">
+                  <a href="#" target="_blank">
+                    <img src="assets/img/brand_thumbnail_sample.jpg" alt="brand">
+                    <div class="thumb-overlay"><strong>Event Landing</strong><span>Promotion / Landing Page</span></div>
+                  </a>
+                </article> -->
+              </div>
+            </div>
+          </section>
+
+          <section class="card brand-row reveal reveal-scale">
+            <div class="brand-info">
+              <h3>BUSAN GREEN SOUND FESTIVAL (BGSF)</h3>
+              <p>
+                부산의 에너지와 사운드를 담은 부산그린사운드페스티벌 브랜드 결과물을 만나보세요.
+              </p>
+              <div class="brand-meta">
+                <span class="tag"><a href="./bgsf/guide/bibx/guide.html" target="_blank">Brand Planning</a></span>
+                <span class="tag"><a href="./bgsf/guide/mockup/guide.html" target="_blank">Mockup</a></span>
+                <span class="tag"><a href="https://ysoyeong96.github.io/busangreensound/" target="_blank">Web Site</a></span>
+                <span class="tag"><a href="https://www.figma.com/proto/DiUJ15cDI986GFdvxq02ex/bgsf-app?node-id=2-2&t=t8gTQ1a1srsWPOUw-1" target="_blank">Application</a></span>
+                <span class="tag"><a href="#" target="_blank">Mood Film</a></span>
+                <span class="tag"><a href="#" target="_blank">Video Guide</a></span>
+              </div>
+            </div>
+
+            <div>
+              <div class="brand-slider-head">
+                <span class="brand-slider-title">Brand Planning · Mockup · Web Guide · Website · Application</span>
+                <div class="slider-controls">
+                  <button class="slider-btn" type="button" data-slider-prev="brandTrack02">←</button>
+                  <button class="slider-btn" type="button" data-slider-next="brandTrack02">→</button>
+                </div>
+              </div>
+              <div class="brand-track slider-track" id="brandTrack02">
+                <article class="thumb-card brand-thumb">
+                  <a href="./bgsf/guide/bibx/guide.html" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/bgsf_bibx.mp4" type="video/mp4" />
+                </video>
+                  </a> -->
+                    <!-- <a href="#" target="_blank">
+                    <img src="assets/img/brand_thumbnail_sample.jpg" alt="brand">
+                  </a> -->
+                    <div class="thumb-overlay"><strong>Brand Planning</strong><span>Insight / Positioning</span></div>
+                </article>
+                </a>
+                <article class="thumb-card brand-thumb">
+                  <!-- <video class="thumb-video" autoplay muted loop playsinline><source src="assets/brand-02-mockup.mp4" type="video/mp4" /></video> -->
+                  <a href="./bgsf/guide/mockup/guide.html" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/bgsf_mockup.mp4" type="video/mp4" />
+                </video>
+                    <div class="thumb-overlay"><strong>Mockup</strong><span>Visual System / Asset</span></div>
+                  </a>
+                </article>
+
+                <article class="thumb-card brand-thumb">
+                  <a href="./bgsf/guide/web/guide.html" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/bgsf_guide.mp4" type="video/mp4" />
+                </video>
+                    <div class="thumb-overlay"><strong>Web Guide</strong><span>Flow / Component / Motion</span></div>
+                  </a>
+                </article>
+
+                <article class="thumb-card brand-thumb">
+                  <!-- <video class="thumb-video" autoplay muted loop playsinline><source src="assets/brand-02-site.mp4" type="video/mp4" /></video> -->
+                  <a href="https://ysoyeong96.github.io/busangreensound/" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/bgsf.mp4" type="video/mp4" />
+                </video>
+                    <div class="thumb-overlay"><strong>Website</strong><span>Live Result / Motion UI</span></div>
+                  </a>
+                </article>
+
+                <article class="thumb-card brand-thumb">
+                  <a href="https://www.figma.com/proto/DiUJ15cDI986GFdvxq02ex/bgsf-app?node-id=2-2&t=t8gTQ1a1srsWPOUw-1" target="_blank">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/bgsf_app.mp4" type="video/mp4" />
+                </video>
+                    <div class="thumb-overlay"><strong>Application</strong><span>Prototype</span></div>
+                  </a>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="works">
+      <div class="container">
+        <div class="section-head reveal reveal-scale">
+          <div>
+            <span class="eyebrow">Visual Content</span>
+            <h2>시각적 요소가 어우러져 하나의 작품을 구성합니다.</h2>
+          </div>
+          <!-- <p>
+            정지형 비주얼 작업은 한 줄 안에서 함께 보여주고, 영상 작업은 별도 행으로 분리해 흐름이 자연스럽도록 정리했습니다.
+          </p> -->
+        </div>
+
+        <div class="works-stack">
+          <section class="card work-row reveal reveal-scale">
+            <div class="work-row-head">
+              <div>
+                <h3>Posters · Banners · Card News</h3>
+                <p>포스터, 디지털 배너, 카드뉴스를 팝업을 통해 자세히 확인하실 수 있습니다.</p>
+              </div>
+              <div class="slider-controls">
+                <button class="slider-btn" type="button" data-slider-prev="visualTrack">←</button>
+                <button class="slider-btn" type="button" data-slider-next="visualTrack">→</button>
+              </div>
+            </div>
+            <div class="thumb-track slider-track" id="visualTrack">
+              <!-- poster / banner 모달 전용 큰 이미지는 data-modal-media="assets/img/원하는파일.jpg" 로 직접 지정 -->
+              <article class="poster-thumb thumb-card modal-card" data-modal-type="poster"
+                data-modal-title="WALK WORKSHOP"
+                data-modal-description="사내 걷기대회 홍보용 포스터입니다. 타이포그래피와 일러스트 중심의 키비주얼 작업입니다." data-modal-role="Poster Design"
+                data-modal-tools="Photoshop, Illustrator"
+                data-modal-summary="전시/행사 성격의 키비주얼 포스터 시리즈입니다. 메인 타이포와 무드 중심 그래픽으로 메시지를 압축해 전달합니다."
+                data-modal-meta1-label="Format" data-modal-meta1-value="A2 Poster / Digital Adaptation"
+                data-modal-meta2-label="Client" data-modal-meta2-value="Brand Campaign" data-modal-meta3-label="Year"
+                data-modal-meta3-value="2026" data-modal-meta4-label="Concept"
+                data-modal-meta4-value="Bold Type / Minimal Mood" data-modal-tags="Illust, Workshop, Key Visual"
+                data-modal-note-title="Editable Note"
+                data-modal-note="이 영역은 포스터 전용 메모 박스입니다. 전시 개요, 인쇄 사양, 제작 포인트 등으로 자유롭게 수정하면 됩니다."
+                data-modal-video="Poster motion teaser area" data-modal-link="https://example.com"
+                data-modal-media="assets/img/walk_poster.jpg">
+                <div class="thumb-image">
+                  <img src="assets/img/walk_poster.jpg" alt="poster">
+                </div>
+                <!-- <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/poster.mp4" type="video/mp4" />
+                </video> -->
+                <div class="thumb-overlay"><strong>사내걷기대회</strong><span>Workshop ads poster</span></div>
+              </article>
+
+              <article class="poster-thumb thumb-card modal-card" data-modal-type="poster"
+                data-modal-title="AI 세미나" data-modal-description="AI 세미나 안내 홍보 포스터입니다. 최첨단 이미지가 표현되도록 그래픽적인 요소를 사용했습니다."
+                data-modal-role="Poster Design" data-modal-tools="Photoshop"
+                data-modal-summary="브랜드 무드를 중심으로 전개한 포스터 시리즈입니다." data-modal-meta1-label="Format"
+                data-modal-meta1-value="B1 / Poster" data-modal-meta2-label="Client"
+                data-modal-meta2-value="Brand Promotion" data-modal-meta3-label="Year" data-modal-meta3-value="2026"
+                data-modal-meta4-label="Concept" data-modal-meta4-value="Graphic Mood"
+                data-modal-tags="Poster, AI seminar" data-modal-note-title="Editable Note"
+                data-modal-note="" data-modal-video="Poster preview"
+                data-modal-link="https://example.com" data-modal-media="assets/img/ai_poster.jpg">
+                <div class="thumb-image">
+                  <img src="assets/img/ai_poster.jpg" alt="poster">
+                </div>
+                <!-- <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/poster.mp4" type="video/mp4" />
+                </video> -->
+                <div class="thumb-overlay"><strong>AI 세미나 안내</strong><span>Promotion</span></div>
+              </article>
+
+              <article class="cardnews-thumb thumb-card modal-card" data-modal-type="banner"
+                data-modal-title="Kakaotalk Banner"
+                data-modal-description="카카오톡 상단에 들어가는 배너 시리즈를 작업했습니다"
+                data-modal-role="Kakaotalk banner" data-modal-tools="Photoshop"
+                data-modal-summary="카카오톡 상단에 들어가는 가로형 사이즈 배너입니다. 각기 다른 주제로 디자인하였습니다."
+                data-modal-meta1-label="Topic" data-modal-meta1-value="Brand Story" data-modal-meta2-label="Pages"
+                data-modal-meta2-value="3 Pages" data-modal-meta3-label="Flow"
+                data-modal-meta3-value="Cover → Info → CTA" data-modal-meta4-label="Style"
+                data-modal-meta4-value="Editorial Carousel" data-modal-tags="SNS banner"
+                data-modal-note-title="Editable Note"
+                data-modal-note=""
+                data-modal-video="kakaotalk preview" data-modal-link="https://example.com"
+                data-modal-images="assets/img/kakao_bn.jpg">
+                <div class="thumb-image">
+                  <img src="assets/img/kakao_thum.jpg" alt="kakao_bn">
+                </div>
+                <div class="thumb-overlay"><strong>카카오톡 배너 모음</strong><span>SNS Top Banner</span>
+                </div>
+              </article>
+
+              <article class="cardnews-thumb thumb-card modal-card" data-modal-type="cardnews"
+                data-modal-title="Card News: 구글 고급검색 팁"
+                data-modal-description="구글 검색시 고급 검색 팁을 카드뉴스 형식으로 재구성한 시리즈입니다. 모달에서 여러 장의 카드뉴스를 순서대로 확인할 수 있습니다."
+                data-modal-role="Card News Design" data-modal-tools="Photoshop, Illustrator"
+                data-modal-summary="인스타그램 캐러셀 형식의 카드뉴스입니다. 첫 장에서 주제를 제시하고 뒤로 갈수록 정보 흐름이 이어지도록 구성했습니다."
+                data-modal-meta1-label="Topic" data-modal-meta1-value="Brand Story" data-modal-meta2-label="Pages"
+                data-modal-meta2-value="5 Pages" data-modal-meta3-label="Flow"
+                data-modal-meta3-value="Cover → Info → CTA" data-modal-meta4-label="Style"
+                data-modal-meta4-value="Editorial Carousel" data-modal-tags="Card News, Carousel, Storytelling"
+                data-modal-note-title="Editable Note"
+                data-modal-note=""
+                data-modal-video="Card news preview" data-modal-link="https://example.com"
+                data-modal-images="assets/img/card_news1-1.jpg|assets/img/card_news1-2.jpg|assets/img/card_news1-3.jpg|assets/img/card_news1-4.jpg|assets/img/card_news1-5.jpg">
+                <div class="thumb-image">
+                  <img src="assets/img/card_news1_thum.jpg" alt="card news">
+                </div>
+                <div class="thumb-overlay"><strong>구글 검색 활용법</strong><span>Card News / Information</span>
+                </div>
+              </article>
+
+              <article class="cardnews-thumb thumb-card modal-card" data-modal-type="cardnews"
+                data-modal-title="Card News: 봄 체크리스트" data-modal-description="봄을 만끽할 수 있는 콘텐츠를 담은 작업입니다."
+                data-modal-role="Card News Design" data-modal-tools="Photoshop, Figma"
+                data-modal-summary="봄에 할 수 있는 기분전환을 알리는 카드뉴스입니다." data-modal-meta1-label="Topic"
+                data-modal-meta1-value="Cardnews" data-modal-meta2-label="Pages" data-modal-meta2-value="7 Pages"
+                data-modal-meta3-label="Flow" data-modal-meta3-value="Intro → Detail → CTA"
+                data-modal-meta4-label="Style" data-modal-meta4-value="Clean Info Layout"
+                data-modal-tags="Contents" data-modal-note-title="Editable Note"
+                data-modal-note="" data-modal-video="Card news preview"
+                data-modal-link="https://example.com"
+                data-modal-images="assets/img/card_news2-1.jpg|assets/img/card_news2-2.jpg|assets/img/card_news2-3.jpg|assets/img/card_news2-4.jpg|assets/img/card_news2-5.jpg|assets/img/card_news2-6.jpg|assets/img/card_news2-7.jpg">
+                <div class="thumb-image">
+                  <img src="assets/img/card_news2_thum.jpg" alt="card news">
+                </div>
+                <div class="thumb-overlay"><strong>봄봄봄 체크리스트</strong><span>Card News / Tip</span></div>
+              </article>
+              </article>
+
+              <article class="cardnews-thumb thumb-card modal-card" data-modal-type="cardnews"
+                data-modal-title="Card News: 일잘러들의 3가지 습관" data-modal-description="일 잘하는 회사원이 되고 싶은 사람들을 위한 정보성 카드뉴스입니다."
+                data-modal-role="Card News Design" data-modal-tools="Photoshop, Figma"
+                data-modal-summary="정보성 카드뉴스입니다." data-modal-meta1-label="Topic"
+                data-modal-meta1-value="Cardnews" data-modal-meta2-label="Pages" data-modal-meta2-value="5 Pages"
+                data-modal-meta3-label="Flow" data-modal-meta3-value="Intro → Detail → CTA"
+                data-modal-meta4-label="Style" data-modal-meta4-value="Clean Info Layout"
+                data-modal-tags="Information" data-modal-note-title="Editable Note"
+                data-modal-note="" data-modal-video="Card news preview"
+                data-modal-link="https://example.com"
+                data-modal-images="assets/img/card_news3-1.jpg|assets/img/card_news3-2.jpg|assets/img/card_news3-3.jpg|assets/img/card_news3-4.jpg|assets/img/card_news3-5.jpg">
+                <div class="thumb-image">
+                  <img src="assets/img/card_news3_thum.jpg" alt="card news">
+                </div>
+                <div class="thumb-overlay"><strong>일잘러들의 3가지 습관</strong><span>Card News / Information</span></div>
+              </article>
+
+
+
+
+
+            </div>
+          </section>
+
+          <section class="card work-row reveal reveal-scale">
+            <div class="work-row-head">
+              <div>
+                <h3>Reels & Videos</h3>
+                <p>릴스, 숏폼, 모션 중심 작업물로 영상에 마우스를 가져가면 영상이 플레이 됩니다.</p>
+              </div>
+              <div class="slider-controls">
+                <button class="slider-btn" type="button" data-slider-prev="videoTrack">←</button>
+                <button class="slider-btn" type="button" data-slider-next="videoTrack">→</button>
+              </div>
+            </div>
+            <div class="thumb-track slider-track" id="videoTrack">
+              <article class="reels-thumb thumb-card">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project A</strong>
+                  <span>Short-form Motion</span>
+                </div>
+              </article>
+
+              <article class="reels-thumb thumb-card">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project B</strong>
+                  <span>Campaign Motion</span>
+                </div>
+              </article>
+
+              <article class="reels-thumb thumb-card">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project C</strong>
+                  <span>Brand Reel</span>
+                </div>
+              </article>
+
+              <article class="reels-thumb thumb-card">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project D</strong>
+                  <span>Ad Motion</span>
+                </div>
+              </article>
+
+              <article class="reels-thumb thumb-card">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project E</strong>
+                  <span>Brand Intro</span>
+                </div>
+              </article>
+
+              <article class="reels-thumb thumb-card">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project F</strong>
+                  <span>Brand Intro</span>
+                </div>
+              </article>
+              <!-- <article class="reels-thumb thumb-card modal-card" data-modal-title="Reel Project F"
+                data-modal-description="브랜드 인트로 영상입니다." data-modal-role="Motion Design / Short-form"
+                data-modal-tools="Premiere Pro, AI Video" data-modal-video="Reel preview area"
+                data-modal-link="https://example.com">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project F</strong>
+                  <span>Brand Intro</span>
+                </div>
+              </article> -->
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-grid">
+      <div><strong>Yoon Soyeong's</strong><span>Designer Portfolio</span></div>
+      <div><strong>Email</strong><a href="mailto:y.soyeong96@gmail.com">y.soyeong96@gmail.com</a></div>
+      <div><strong>Contact</strong><span>Instagram</span></div>
+      <div><strong>Copyright</strong><span>© 2026 Yoon Soyeong. All rights reserved.</span></div>
+    </div>
+  </footer>
+
+
+  <div class="modal" id="portfolioModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button class="modal-close" type="button" aria-label="닫기">✕</button>
+      <div class="modal-content">
+        <div class="modal-gallery">
+          <div class="modal-hero-wrap">
+            <button class="modal-nav modal-nav-prev" id="modalPrev" type="button" aria-label="이전 이미지">←</button>
+            <div class="modal-hero-media" id="modalHeroMedia">Main Preview</div>
+            <button class="modal-nav modal-nav-next" id="modalNext" type="button" aria-label="다음 이미지">→</button>
+            <div class="modal-page-indicator" id="modalPageIndicator">1 / 1</div>
+          </div>
+          <div class="modal-thumbs" id="modalThumbs">
+            <div class="modal-thumb">Mockup 01</div>
+            <div class="modal-thumb">Mockup 02</div>
+            <div class="modal-thumb">Wireframe</div>
+          </div>
+        </div>
+
+        <div class="modal-body" id="modalDynamicBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Modal layout templates: edit these HTML blocks directly ===== -->
+  <template id="modalTemplatePoster">
+    <span class="modal-type-badge">Poster Project</span>
+    <div class="modal-summary-card">
+      <strong data-field="title">Project Title</strong>
+      <p data-field="description">Project description</p>
+    </div>
+    <div class="modal-meta-grid">
+      <div class="modal-meta-card">
+        <strong>Role</strong>
+        <span data-field="role">Poster Design</span>
+      </div>
+      <div class="modal-meta-card">
+        <strong>Tools</strong>
+        <span data-field="tools">Photoshop, Illustrator</span>
+      </div>
+
+      <div>
+        <strong style="display:block; margin-bottom:10px;">Keywords</strong>
+        <div class="modal-tag-list" data-list="tags"></div>
+      </div>
+
+
+    </div>
+  </template>
+
+  <template id="modalTemplateBanner">
+    <span class="modal-type-badge">Banner Project</span>
+    <div class="modal-summary-card">
+      <strong data-field="title">Project Title</strong>
+      <p data-field="description">Project description</p>
+    </div>
+    <div class="modal-meta-grid">
+      <div class="modal-meta-card">
+        <strong>Role</strong>
+        <span data-field="role">Banner Design</span>
+      </div>
+      <div class="modal-meta-card">
+        <strong>Tools</strong>
+        <span data-field="tools">Photoshop, Figma</span>
+      </div>
+
+    </div>
+
+    <div>
+      <strong style="display:block; margin-bottom:10px;">Keywords</strong>
+      <div class="modal-tag-list" data-list="tags"></div>
+    </div>
+
+  </template>
+
+  <template id="modalTemplateCardnews">
+    <span class="modal-type-badge">Card News Project</span>
+    <div class="modal-summary-card">
+      <strong data-field="title">Project Title</strong>
+      <p data-field="description">Project description</p>
+    </div>
+
+    <div class="modal-meta-card">
+      <strong>Tools</strong>
+      <span data-field="tools">Photoshop, Figma</span>
+    </div>
+
+    </div>
+
+    <div>
+      <strong style="display:block; margin-bottom:10px;">Keywords</strong>
+      <div class="modal-tag-list" data-list="tags"></div>
+    </div>
+
+    <div class="modal-actions">
+      <!-- <a class="modal-link" id="modalLink" href="#" target="_blank" rel="noreferrer noopener">Visit Website</a> -->
+      <a class="modal-action-link" id="modalSubLink" href="#" target="_blank" rel="noreferrer noopener">View
+        Campaign</a>
+    </div>
+  </template>
+
+  <template id="modalTemplateDefault">
+    <span class="modal-type-badge">Project Detail</span>
+    <div class="modal-summary-card">
+      <strong data-field="title">Project Title</strong>
+      <p data-field="description">Project description</p>
+    </div>
+    <div class="modal-meta-grid">
+      <div class="modal-meta-card">
+        <strong>Role</strong>
+        <span data-field="role">Role information</span>
+      </div>
+      <div class="modal-meta-card">
+        <strong>Tools</strong>
+        <span data-field="tools">Tool information</span>
+      </div>
+      <div class="modal-meta-card">
+        <strong data-field="meta1Label">Info 01</strong>
+        <span data-field="meta1Value">Value 01</span>
+      </div>
+      <div class="modal-meta-card">
+        <strong data-field="meta2Label">Info 02</strong>
+        <span data-field="meta2Value">Value 02</span>
+      </div>
+    </div>
+    <div class="modal-note-box">
+      <strong>Summary</strong>
+      <p data-field="summary">Summary text</p>
+    </div>
+    <div>
+      <strong style="display:block; margin-bottom:10px;">Keywords</strong>
+      <div class="modal-tag-list" data-list="tags"></div>
+    </div>
+    <div class="modal-note-box">
+      <strong data-field="noteTitle">Editable Note</strong>
+      <p data-field="note">Write any note here.</p>
+    </div>
+    <div class="modal-actions">
+      <a class="modal-link" id="modalLink" href="#" target="_blank" rel="noreferrer noopener">Visit Website</a>
+      <a class="modal-action-link" id="modalSubLink" href="#" target="_blank" rel="noreferrer noopener">View Detail</a>
+    </div>
+  </template>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

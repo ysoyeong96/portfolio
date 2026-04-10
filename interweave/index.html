@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>interweave</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/common/favicon.png" type="image/x-icon">
+    <!-- webfont -->
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 슬라이드 링크 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS animation 링크 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <div class="gnb_area">
+                    <h1 class="logo"><a href="/index.html"><img src="./images/common/logo.svg" alt="interweave"></a></h1>
+                    <div class="gnb">
+                        <h2>메뉴</h2>
+                        <ul>
+                            <li>
+                                <a href="../sub/brand.html">brand</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/brand.html">브랜드 스토리</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">space</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/store.html">인터위브 스토어</a></li>
+                                            <li><a href="../sub/cafe.html">인터위브 카페</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="../sub/guide.html">guide</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/guide.html">뜨개 가이드</a></li>
+                                            <li><a href="../sub/class.html">오프라인 클래스</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="../sub/event.html">event</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/event.html">이벤트</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="../sub/notice.html">community</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/notice.html">공지사항</a></li>
+                                            <li><a href="../sub/qna.html">QnA</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="src_area">
+                    <fieldset>
+                        <legend>검색</legend>
+                        <input type="text" id="search" placeholder="검색어를 입력하세요.">
+                        <button class="search_ico"><img src="/images/common/search_ico.svg" alt="search"></button>
+                    </fieldset>
+                </div>
+            </div>
+        </header><!-- 헤더 끝-->
+        <div id="main_slide_wr">
+            <!-- 메인 슬라이드 Swiper -->
+            <div class="swiper mainSlide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="./sub/doan.html"><img src="./images/main/main_slide1.jpg" alt="Slide"></a></div>
+                    <div class="swiper-slide"><a href="./sub/doan.html"><img src="./images/main/main_slide2.jpg" alt="Slide"></a></div>
+                </div>
+
+                <div class="controls">
+                    <div class="paging">
+                        <div class="current">1</div>
+                        <div class="bar">
+                            <span></span>
+                        </div>
+                        <div class="total">0</div>
+                    </div>
+
+                    <div class="swiper_btns">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+
+                    <div class="play_stop">
+                        <button class="play">
+                            <svg viewBox="0 0 384 512">
+                                <path
+                                    d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z">
+                                </path>
+                            </svg>
+                            <span class="sr_only">재생</span>
+                        </button>
+                        <button class="stop active">
+                            <svg viewBox="0 0 14 16">
+                                <rect width="4" height="16" fill="#fff"></rect>
+                                <rect x="10" width="4" height="16" fill="#fff"></rect>
+                            </svg>
+                            <span class="sr_only">정지</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="main_slide">
+            <ul>
+                <li><a href="#"><img src="images/main/main_slide1.jpg" alt="[NEW!] 잘 익은 토마토 세트 / 새로 나온 도안을 지금 바로 다운로드하세요 / 자세히보기(클릭)"></a></li>
+            </ul>
+            <div class="pagination"></div>
+        </div> -->
+        <!-- 메인 슬라이드 끝 -->
+
+        <section id="brand_story">
+            <div class="inner bs_area">
+                <div class="bs_left">
+                    <h2>Knit your vibe<br />Weave with color</h2>
+                    <a href="./sub/brand.html" title="바로가기" class="more">more view <span><img src="images/common/more_btn.svg" alt="go"></span></a>
+                </div>
+                <div class="bs_right">
+                    <p><strong>복잡한 생각은 잠시 멈추고, <span>숨겨진 나만의 취향을 맘껏 풀어놓는 공간</span></strong></p>
+                    <p>편안한 카페 공간에서 즐기는 유쾌한 뜨개질은, 일상에 위트를 더하는<br />가장 멋진 라이프스타일 아이템이 됩니다</p>
+                </div>
+            </div>
+        </section><!-- 브랜드 스토리 끝 -->
+        <section id="space">
+            <div class="img_wrap img_wr1 active">
+                <img src="./images/main/floor1_bg.jpg" alt="floor1 info">
+            </div>
+            <div class="inner">
+                <div class="floor active">
+                    <div class="fl_in">
+                        <span class="small">1F</span>
+                        <h2>취향의 실마리를 발견하다</h2>
+                        <p>알록달록한 털실들이 가득한 선반 앞에서 맘껏 고르고, 만지고, 상상해 보세요. 색깔 하나가 주는 설렘이 그 다음 색깔을 부르는 이곳은 취향을 발견하는 설렘이 숨 쉬는
+                            공간입니다.</p>
+                        <a href="./sub/store.html" title="바로가기" class="more">more view <span><img src="./images/common/more_btn.svg"
+                                    alt="go"></span></a>
+                    </div>
+                </div>
+                <div class="floor">
+                    <div class="fl_in">
+                        <span class="small">2F</span>
+                        <h2>한 모금의 여유를 전하다</h2>
+                        <p>좋아하는 음료를 곁들이며 손끝의 감각에 집중해 보세요. 규칙적인 뜨개질의 리듬 속에서 복잡한 생각은 비워지고, 내가 진짜 좋아하는 것들이 무엇인지 선명해집니다.</p>
+                        <a href="./sub/cafe.html" title="바로가기" class="more">more view <span><img src="./images/common/more_btn.svg"
+                                    alt="go"></span></a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- 공간 소개 끝 -->
+        <section id="event" class="inner">
+            <h2 class="main_tit">EVENT
+                <a href="#" class="more"><span><img src="./images/common/more_btn.svg" alt="go"></span></a>
+            </h2>
+            <div class="ev_wrap">
+                <!-- 왼쪽 고정 슬라이드 -->
+                <div class="left_fix">
+                    <img src="images/main/bn_event1.jpg" alt="banner">
+                </div>
+
+                <!-- 오른쪽 Swiper 슬라이드 -->
+                <div class="swiper ev_bn">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="/sub/event.html" title="바로가기"> <img src="images/main/bn_event2.jpg" alt="banner"></a></div>
+                        <div class="swiper-slide"><img src="./images/main/bn_event3.jpg" alt="banner"></div>
+                        <div class="swiper-slide"><img src="./images/main/bn_event4.jpg" alt="banner"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section><!--이벤트 끝-->
+        <section id="faq" class="inner">
+            <div class="faq_left">
+                <h2 class="main_tit">FAQ <span>잠깐! 궁금한 게 있나요?</span></h2>
+                <ul class="tab_wr">
+                    <li class="tab tablink active" onclick="openBoard(event,'Board01')">전체 FAQ</li>
+                    <li class="tab tablink" onclick="openBoard(event,'Board02')">내가 남긴 문의사항</li>
+                </ul>
+            </div>
+            <!-- 전체 faq -->
+            <div id="Board01" class="box1_1	board">
+                <div class="swiper faq_right active" data-content="faq_all">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <p class="center">브랜드 문의</p>
+                            <p class="q"><strong>
+                                    <span>Q. </span>
+                                    <em>꼭 뜨개질을 잘해야 즐길 수 있나요?</em>
+                                </strong></p>
+                            <p class="a"><strong>
+                                    <span>A. </span></strong>
+                                <em>전혀요! 저희는 ‘완벽한 뜨개질’보다 ‘즐거움’을 더 중요하게 생각해요. 천천히, 나만의 속도로 즐기면 그게 바로 완성입니다.</em>
+                            </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <p class="center">제품 · 컬러</p>
+                            <p class="q"><strong>
+                                    <span>Q. </span>
+                                    <em>여기서 쓰는 털실이나 키트는 따로 살 수도 있나요?</em>
+                                </strong></p>
+                            <p class="a"><strong>
+                                    <span>A. </span></strong>
+                                <em> 물론이에요. 1층 스토어에서 컬러풀한 실과 DIY 키트를 바로 구입할 수 있어요.</em>
+                            </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <p class="center">브랜드 문의</p>
+                            <p class="q"><strong>
+                                    <span>Q. </span>
+                                    <em>단순한 카페 브랜드랑 뭐가 달라요?</em>
+                                </strong></p>
+                            <p class="a"><strong>
+                                    <span>A. </span></strong>
+                                <em>우리는 커피 한 잔을 넘어, 만드는 경험과 함께 나누는 취향을 제안해요. 단순히 머무는 공간이 아니라, 나의 취미와 일상이 연결되는
+                                    브랜드입니다.</em>
+                            </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <p class="center">공간 문의</p>
+                            <p class="q"><strong>
+                                    <span>Q. </span>
+                                    <em>오프라인 공간에서는 어떤 걸 할 수 있나요?</em>
+                                </strong></p>
+                            <p class="a"><strong>
+                                    <span>A. </span></strong>
+                                <em> 클래스 참여, DIY 키트 체험, 그리고 커피 한 잔의 여유까지. 천천히 머물며 나답게 즐길 수 있는 공간이에요.</em>
+                            </p>
+                        </li>
+                        <li class="swiper-slide">
+                            <p class="center">방문 문의</p>
+                            <p class="q"><strong>
+                                    <span>Q. </span>
+                                    <em>혼자 가도 괜찮을까요?</em>
+                                </strong></p>
+                            <p class="a"><strong>
+                                    <span>A. </span></strong>
+                                <em>물론이죠. <br> 혼자 와서 뜨개질하거나 커피 마시며 머물러도 충분히 편안한 공간이에요</em>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- my faq -->
+            <div id="Board02" class="box1_1	board" style="display:none;">
+                <div class="swiper faq_right faq_my" data-content="faq_my">
+                    <div class="faq_prv">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <p>본인인증 후 열람하실 수 있습니다.</p>
+                                <a href="#">본인인증</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="faq_cont">
+                <div class="swiper-button-next">
+                </div>
+                <div class="swiper-button-prev">
+                </div>
+            </div>
+            <!-- <div class="faq_right">
+                                <ul>
+                                    <li>
+                                        <p class="center">브랜드 문의</p>
+                                        <p class="q"><strong>
+                                            <span>Q. </span>
+                                            <em>꼭 뜨개질을 잘해야 즐길 수 있나요?</em>
+                                        </strong></p>
+                                        <p class="a"><strong>
+                                            <span>A. </span></strong>
+                                            <em>전혀요! 저희는 ‘완벽한 뜨개질’보다 ‘즐거움’을 더 중요하게 생각해요. 천천히, 나만의 속도로 즐기면 그게 바로 완성입니다.</em>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="center">제품 · 컬러</p>
+                                        <p class="q"><strong>
+                                            <span>Q. </span>
+                                            <em>여기서 쓰는 털실이나 키트는 따로 살 수도 있나요?</em>
+                                        </strong></p>
+                                        <p class="a"><strong>
+                                            <span>A. </span></strong>
+                                            <em> 물론이에요. 1층 스토어에서 컬러풀한 실과 DIY 키트를 바로 구입할 수 있어요.</em>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="center">브랜드 문의</p>
+                                        <p class="q"><strong>
+                                            <span>Q. </span>
+                                            <em>단순한 카페 브랜드랑 뭐가 달라요?</em>
+                                        </strong></p>
+                                        <p class="a"><strong>
+                                            <span>A. </span></strong>
+                                            <em>우리는 커피 한 잔을 넘어, 만드는 경험과 함께 나누는 취향을 제안해요. 단순히 머무는 공간이 아니라, 나의 취미와 일상이 연결되는 브랜드입니다.</em>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div> -->
+        </section><!-- faq 끝 -->
+        <section id="class">
+            <div class="class_top">
+                <div class="inner">
+                    <p class="cl_tit center">CLASS</p>
+                    <p class="center">복잡한 생각은 잠시 끄고, 만드는 즐거움에만 집중해 봐요.
+                        <br />가벼운 마음으로 손을 움직이다 보면, 어느새 나만의 멋진 결과물과
+                        <br />마음의 여유까지 함께 얻어갈 거예요.
+                    </p>
+                    <div class="go_btn center">
+                        <a href="/sub/class.html" title="바로가기" class="go">클래스 자세히보기</a>
+                        <a href="/sub/class.html" title="바로가기" class="go">클래스 신청하기</a>
+                    </div>
+                    <div class="img_po">
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><img
+                                src="./images/main/pic_class1.jpg" alt="pic_class"></p>
+                        <p data-aos="fade-down" data-aos-duration="800"><img src="./images/main/pic_class3.jpg"
+                                alt="pic_class"></p>
+                        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000"><img
+                                src="./images/main/pic_class2.jpg" alt="pic_class"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="class_btm inner">
+                <div class="beginner">
+                    <h3>비기너 회원</h3>
+                    <p>처음 뜨개를 시작하며 나만의 취향을 쌓아가는 단계입니다. 기초적인 기법을 익히며 일상 속에 뜨개가 주는 휴식을 채워가고 싶은 분들을 위한 자리입니다.</p>
+                    <a href="/sub/class.html" title="바로가기" class="more">more view <span><img src="./images/common/more_btn.svg" alt=""></span></a>
+                </div>
+                <div class="master">
+                    <h3>마스터 회원</h3>
+                    <p>처음 뜨개를 시작하며 나만의 취향을 쌓아가는 단계입니다. 기초적인 기법을 익히며 일상 속에 뜨개가 주는 휴식을 채워가고 싶은 분들을 위한 자리입니다.</p>
+                    <a href="/sub/class.html" title="바로가기" class="more">more view <span><img src="./images/common/more_btn.svg" alt=""></span></a>
+                </div>
+            </div>
+        </section><!--class 끝-->
+
+        <div class="qmenu">
+            <div class="doan_btn">
+                <a href="./sub/doan.html">
+                    <span>무료도안</span>
+                </a>
+            </div>
+            <div class="top_btn" onclick="$('html, body').stop().animate( { scrollTop : '0' }, 600 );">
+                    <span></span>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="fmenu">
+                <ul class="inner">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="#">사업자정보확인</a></li>
+                </ul>
+            </div>
+            <div class="finfo">
+                <div class="inner">
+                    <p>
+                        <span class="circle">부산광역시 부산진구 부전로 88, 컬러빌딩 1-2F</span>
+                        <span><b>고객센터</b> 1234-5678</span>
+                    </p>
+                    <p>
+                        <span class="circle"><b>평일 영업시간</b>11:00 - 20:30</span>
+                        <span><b>주말 영업시간</b>11:00 - 21:30</span>
+                    </p>
+                    <p>매주 월요일은 휴무입니다. 방문에 참고 바랍니다.</p>
+                    <p class="copy">copyright...</p>
+                    <p class="sns"><a href="#"><span class="blind">insta</span></a></p>
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrap 끝 -->
+
+    <!-- jQuery 오픈소스 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- 제어코드 -->
+    <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- AOS js CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- 메인슬라이드 -->
+    <script>
+        const menuTotal = document.querySelector('.total'); // 전체 슬라이드 개수 표시 요소
+        const menuCurrent = document.querySelector('.current'); // 현재 슬라이드 번호 표시 요소
+        const progressBar = document.querySelector('.paging .bar span'); // 자동재생 진행바(span)
+
+        // Swiper 메인 슬라이드 설정
+        const mainSwiper = new Swiper(".mainSlide", {
+            loop: true,
+            speed: 800,
+            autoplay: {
+                delay: 4500,
+                disableOnInteraction: false, // 사용자 조작 후에도 자동재생 유지
+            },
+            navigation: {
+                nextEl: ".mainSlide .swiper-button-next",
+                prevEl: ".mainSlide .swiper-button-prev",
+            },
+            on: {   // Swiper 초기화 시 실행
+                init: function () {
+                    // loop 모드에서 복제된 슬라이드를 제외한 실제 슬라이드 개수
+                    menuTotal.innerText = this.slides.length - (this.loopedSlides * 1); //원래 *2
+                },
+                slideChange: function () {
+                    menuCurrent.innerText = this.realIndex + 1;
+                },
+                autoplayTimeLeft(s, time, progress) {
+                    progressBar.style.width = (1 - progress) * 100 + "%";
+                }
+            },
+        });
+
+        // 재생/정지
+        const btnPlay = document.querySelector('.mainSlide .play');
+        const btnStop = document.querySelector('.mainSlide .stop');
+
+        btnStop.addEventListener('click', () => {
+            mainSwiper.autoplay.stop();
+            btnStop.classList.remove('active');
+            btnPlay.classList.add('active');
+            progressBar.style.width = "0%";
+        });
+
+        btnPlay.addEventListener('click', () => {
+            mainSwiper.autoplay.start();
+            btnPlay.classList.remove('active');
+            btnStop.classList.add('active');
+        });
+    </script>
+
+
+    <!-- 이벤트 배너 -->
+    <script>
+        const eventSwiper = new Swiper(".ev_bn", {
+            slidesPerView: 2.5,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar"
+            },
+            loop: false,
+        });
+    </script>
+
+    <!-- faq 슬라이드 -->
+    <script>
+        const faqSwiper = new Swiper(".faq_right", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            navigation: {
+                prevEl: ".faq_cont .swiper-button-prev",
+                nextEl: ".faq_cont .swiper-button-next",
+            },
+        });
+    </script>
+</body>
+
+</html>

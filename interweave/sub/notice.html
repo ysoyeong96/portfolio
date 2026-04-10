@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>interweave</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../images/common/favicon.png" type="image/x-icon">
+    <!-- webfont -->
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="stylesheet" href="../css/board.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <div class="gnb_area">
+                    <h1 class="logo"><a href="/index.html"><img src="/images/common/logo.svg" alt="interweave"></a></h1>
+                    <div class="gnb">
+                        <h2>메뉴</h2>
+                        <ul>
+                            <li>
+                                <a href="../sub/brand.html">brand</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/brand.html">브랜드 스토리</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="../sub/store.html">space</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/store.html">인터위브 스토어</a></li>
+                                            <li><a href="../sub/cafe.html">인터위브 카페</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="../sub/guide.html">guide</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/guide.html">뜨개 가이드</a></li>
+                                            <li><a href="../sub/class.html">오프라인 클래스</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="../sub/event.html">event</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/event.html">이벤트</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="../sub/notice.html">community</a>
+                                <div class="submenu">
+                                    <div class="inner">
+                                        <ul>
+                                            <li><a href="../sub/notice.html">공지사항</a></li>
+                                            <li><a href="../sub/qna.html">QnA</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="src_area">
+                <fieldset>
+                        <legend>검색</legend>
+                        <input type="text" id="search" placeholder="검색어를 입력하세요.">
+                        <button class="search_ico"><img src="/images/common/search_ico.svg" alt="search"></button>
+                    </fieldset>
+                    </div>
+            </div>
+        </header><!-- 헤더 끝-->
+
+        <section>
+            <div class="sub_top inner">
+                <div class="tit_box">
+                        <p class="nav_t">interweave</p>
+                    <div class="tit">
+                        <h2>공지사항</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="notice" class="inner pdt0">
+            <table class="board_list_tb">
+                <colgroup>
+                    <col style="width:8%">
+                    <col style="width:auto">
+                    <col style="width:13%">
+                    <col style="width:10%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>제목</th>
+                        <th>작성일</th>
+                        <th>작성자</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>공지</strong></td>
+                        <td class="board_t"><a href="#"><span>인터위브 공식 홈페이지가 오픈했습니다.</span></a></td>
+                        <td>2026-04-22</td>
+                        <td>관리자</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="board_t"><a href="#"><span>공지사항입니다.</span></a></td>
+                        <td>2026-04-15</td>
+                        <td>관리자</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="board_t"><a href="#"><span>공지사항입니다.</span></a></td>
+                        <td>2026-04-14</td>
+                        <td>관리자</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td class="board_t"><a href="#"><span>공지사항입니다.</span></a></td>
+                        <td>2026-04-05</td>
+                        <td>관리자</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <div class="qmenu">
+            <div class="doan_btn">
+                <a href="./sub/doan.html">
+                    <span>무료도안</span>
+                </a>
+            </div>
+            <div class="top_btn" onclick="$('html, body').stop().animate( { scrollTop : '0' }, 600 );">
+                    <span></span>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="fmenu">
+                <ul class="inner">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="#">사업자정보확인</a></li>
+                </ul>
+            </div>
+            <div class="finfo">
+                <div class="inner">
+                    <div>
+                        <p>
+                            <span class="bullet">부산광역시 부산진구 부전로 88, 컬러빌딩 1-2F</span>
+                            <span><b>고객센터</b> 1234-5678</span>
+                        </p>
+                        <p>
+                            <span class="bullet"><b>평일 영업시간</b>11:00 - 20:30</span>
+                            <span><b>주말 영업시간</b>11:00 - 21:30</span>
+                        </p>
+                        <p>매주 월요일은 휴무입니다. 방문에 참고 바랍니다.</p>
+                        <p class="copy">copyright...</p>
+                        <p class="sns"><a href="#"><span class="blind">insta</span></a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrap 끝 -->
+
+    <!-- jQuery 오픈소스 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- 제어코드 -->
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

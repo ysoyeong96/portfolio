@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSAN GREEN SOUND FESTIVAL</title>
+    <link rel="shortcut icon" href="./images/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <section class="inner">
+            <div class="htop flexbox">
+                <h1 class="logo"><a href="#"><img src="./images/logo.svg" alt="BGSF"></a></h1>
+                <!-- pc 메뉴 시작 -->
+                <nav class="gnb">
+                    <ul class="flexbox">
+                        <li><a href="#line-up">LINE-UP</a></li>
+                        <li><a href="#time-table">TIME-TABLE</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#green-action">GREEN-ACTION</a></li>
+                        <li><a href="#ticket">TICKET</a></li>
+                    </ul>
+                </nav>
+                <div class="hright flexbox">
+                    <div class="hr_btn">
+                        <button>SNS</button>
+                    </div>
+                    <div class="hr_btn">
+                        <div class="menu_open">
+                            <button><img src="./images/menu_open.svg" alt="menu_open"></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- gnb 끝 -->
+            </div>
+        </section>
+    </header>
+    <!-- header 끝 -->
+    <!-- mobile 메뉴 시작 -->
+    <section class="mb_gnb">
+        <!-- blind - mobile menu -->
+        <nav id="m_menu">
+            <ul class="m_list">
+                <li><a href="#line-up">LINE-UP</a></li>
+                <li><a href="#time-table">TIME-TABLE</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#green-action">GREEN ACTION</a></li>
+                <li><a href="#ticket">TICKET</a></li>
+            </ul>
+            <div class="m_close_btn">
+                <button><img src="./images/menu_close.svg" alt="menu_close"></button>
+            </div>
+        </nav>
+    </section>
+    <!-- mobile 메뉴 끝 -->
+
+    <div id="main_visual">
+        <video preload="true" loop autoplay muted webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+            <source src="./video/main_visual.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="container">
+        <!-- 라인업 시작 -->
+        <section id="line-up">
+            <div class="inner">
+                <h2>Line-Up</h2>
+                <p class="subtext">국내외 최정상 밴드부터 주목받는 신예까지, BGSF 2026을 채울 아티스트를 확인하세요.</p>
+            </div>
+            <div class="bn_wr">
+                <div class="pc_img"></div>
+                <div class="m_img"><img src="./images/line-up-bn.jpg" alt="mobile ver"></div>
+            </div>
+        </section>
+        <!-- 라인업 끝 -->
+        <!-- 타임테이블 시작 -->
+        <section id="time-table">
+            <div class="inner">
+                <div class="tt-top flexbox">
+                    <div class="tit">
+                        <h2>TIME-TABLE</h2>
+                        <p class="subtext">
+                            BGSF 2026에 참여하는 아티스트 명단입니다. 국내외 실력파 밴드와
+                            <span>장르별 대표 뮤지션들이 참여하며, 아티스트가 출연하는 시간과 공연 일정을 확인할 수 있습니다.</span>
+                        </p>
+                    </div>
+
+                    <!-- Tabs -->
+                    <div class="tab_area">
+                        <div class="tabs on" onclick="openTab('sat')">SAT</div>
+                        <div class="tabs" onclick="openTab('sun')">SUN</div>
+                    </div>
+                </div>
+
+                <div class="tab_wr">
+                    <div class="tab on" id="sat">
+                        <div class="swiperBox">
+                            <!-- Swiper -->
+                            <div class="swiper ttSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">너드커넥션</p>
+                                                <p class="running">30m</p>
+                                                <p class="time">13:00 ~ 13:30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">LUCY</p>
+                                                <p class="running">30m</p>
+                                                <p class="time">13:50 ~ 14:20</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">터치드</p>
+                                                <p class="running">35m</p>
+                                                <p class="time">14:40 ~ 15:15</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">Glen Check</p>
+                                                <p class="running">40m</p>
+                                                <p class="time">15:35 ~ 16:20</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">유다빈밴드</p>
+                                                <p class="running">45m</p>
+                                                <p class="time">16:40 ~ 17:25</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">The Voluteers</p>
+                                                <p class="running">45m</p>
+                                                <p class="time">17:45 ~ 18:30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">새소년</p>
+                                                <p class="running">45m</p>
+                                                <p class="time">18:50 ~ 19:40</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">크라잉넛</p>
+                                                <p class="running">1h</p>
+                                                <p class="time">20:00 ~ 21:00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- 토요일 -->
+                    <div class="tab" id="sun">
+                        <div class="swiperBox">
+                            <!-- Swiper -->
+                            <div class="swiper ttSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">음율</p>
+                                                <p class="running">30m</p>
+                                                <p class="time">13:00 ~ 13:30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">나상현씨밴드</p>
+                                                <p class="running">30m</p>
+                                                <p class="time">13:50 ~ 14:20</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">페퍼톤스</p>
+                                                <p class="running">35m</p>
+                                                <p class="time">14:40 ~ 15:15</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">까치산</p>
+                                                <p class="running">40m</p>
+                                                <p class="time">15:35 ~ 16:20</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">N.Flying</p>
+                                                <p class="running">45m</p>
+                                                <p class="time">16:40 ~ 17:25</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">원위</p>
+                                                <p class="running">45m</p>
+                                                <p class="time">17:45 ~ 18:30</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">GOGOHAWK</p>
+                                                <p class="running">45m</p>
+                                                <p class="time">18:50 ~ 19:40</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-box">
+                                            <div class="item">
+                                                <p class="tit">CNBLUE</p>
+                                                <p class="running">1h</p>
+                                                <p class="time">20:00 ~ 21:00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- 일요일 -->
+                </div>
+            </div>
+        </section>
+        <!-- 타임테이블 끝 -->
+
+
+        <!-- about 시작 -->
+        <!-- 텍스트 플로우 -->
+        <div class="flow-inner">
+            <div class="text-flow">
+                <div class="track flow01">
+                    <p>&nbsp;MAKE SOUND, NOT WASTE&nbsp;&nbsp;MAKE SOUND, NOT WASTE&nbsp;&nbsp;MAKE SOUND, NOT
+                        WASTE&nbsp;&nbsp;MAKE SOUND, NOT WASTE&nbsp;&nbsp;MAKE SOUND, NOT WASTE&nbsp;&nbsp;MAKE SOUND,
+                        NOT
+                        WASTE</p>
+                </div>
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="inner">
+                <div class="tit">
+                    <h2>ABOUT</h2>
+                    <p>라이브 공연의 에너지를 즐기면서도, 지속 가능한 축제 문화를 선도합니다.</p>
+                    <p>BGSF 2026의 현장에 동참하세요.</p>
+                </div>
+
+                <div class="swiper posterSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="bn_wr"><img src="./images/mood-poster01.jpg" alt="poster 1"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bn_wr"><img src="./images/md-list.jpg" alt="md list"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bn_wr"><img src="./images/mood-poster02.jpg" alt="poster 2"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bn_wr"><img src="./images/mood-poster03.jpg" alt="poster 3"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="swiper infoSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="sub_wr">
+                                <h3>SYSTEM</h3>
+                                <p>부산그린사운드페스티벌(BGSF)은 압도적인 밴드 라인업과 혁신적인 제로 웨이스트 시스템이 결합된 하이브리드 축제입니다. </p>
+                                <p class="blind">광안리 해변의 시원한 바람과 거친 파도 소리가 강력한 라이브 사운드와 하나가 되는 특별한 순간을 선사합니다. 단순한 공연 관람을
+                                    넘어, 환경에 무해한 방식으로 최상의 음악적 카타르시스를 경험하는 새로운 페스티벌 패러다임을 제안합니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sub_wr">
+                                <h3>GOODS</h3>
+                                <p>BGSF에서만 소장 가능한 리미티드 에디션 굿즈와 부산의 로컬 감성을 담은 특별한 F&B 라인업을 운영합니다.</p>
+                                <p class="blind">현장의 모든 식음료는 스마트 다회용기 시스템을 통해 간편하게 제공되어, 번거로운 쓰레기 처리 과정 없이 오직 축제에만 몰입할 수
+                                    있는 쾌적한 환경을
+                                    선사합니다. </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sub_wr">
+                                <h3>CURATION</h3>
+                                <p>음악적 완성도에 대한 고집과 지속 가능한 미래 가치를 동시에 지향하는 BGSF만의 독보적인 아티스트 큐레이션을 선보입니다.</p>
+                                <p class="blind">무대를 장악하는 헤드라이너부터 독창적인 사운드를 가진 인디 밴드까지, 장르의 경계를 허무는 라인업이 양일간 무대를 가득
+                                    채웁니다. 오직 이곳에서만 만날
+                                    수 있는 아티스트들의 에너제틱한 퍼포먼스는 당신의 감각을 깨우는 강렬한 진동이 될 것입니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sub_wr">
+                                <h3>PLACE</h3>
+                                <div class="pinfo">
+                                    <p class="name">부산광역시 수영구 광안해변로 일대</p>
+                                    <ul>
+                                        <li class="subway"><span>지하철:</span> 2호선 광안역 (도보 10분)</li>
+                                        <li class="bus"><span>버스:</span> 광안리해수욕장 정류장 하차</li>
+                                    </ul>
+                                    <p class="notice">탄소 배출 저감을 위해 대중교통 이용을 적극 권장하며, 행사장 인근은 차량 통행이
+                                        제한될 수 있으니 사전에 확인 바랍니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 텍스트 플로우 -->
+        <div class="flow-inner textf02">
+            <div class="text-flow">
+                <div class="track flow02">
+                    <p>P&nbsp;LASTIC IS NOT COOOOL&nbsp;&nbsp;PLASTIC IS NOT COOOOL&nbsp;&nbsp;PLASTIC IS NOT
+                        COOOOL&nbsp;&nbsp;PLASTIC IS NOT COOOOL&nbsp;&nbsp;PLASTIC IS NOT COOOOL</p>
+                </div>
+            </div>
+        </div>
+        <!-- about 끝 -->
+
+
+        <!-- 그린액션 시작 -->
+        <section id="green-action">
+            <div class="inner">
+            <h2>GREEN ACTION</h2>
+            <p class="subtext">페스티벌 현장에서 실행되는 친환경 운영 체계입니다. 관객이 동참할 수 있는 지속 가능한 활동들을 안내합니다.</p>
+            <!-- Swiper -->
+            <div class="swiper gSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img_wr"><img src="./images/green_action_img1.jpg" alt="green-action"></div>
+                        <div class="sub_wr">
+                            <h3>REUSABLE FLOW</h3>
+                            <p>일회용 컵 대신 다회용 컵을 사용합니다.</p>
+                            <p>현장에서 보증금 기반으로 대여 및 반납이 가능하며, 전용 수거 스테이션을 통해 즉시 회수·세척·재사용되는 순환 시스템을 운영합니다. 버려지는 쓰레기 없이, 같은
+                                흐름 안에서 계속 사용됩니다.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_wr"><img src="./images/green_action_img2.jpg" alt="green-action"></div>
+                        <div class="sub_wr">
+                            <h3> ZERO WASTE OPERATION</h3>
+                            <p>페스티벌 전 구역에 분리수거 스테이션을 설치하고, 관객이 쉽게 참여할 수 있도록 직관적인 동선과 안내 시스템을 제공합니다. 스태프와 함께 실시간으로 관리되며,
+                                행사 종료 후 남는 폐기물을 최소화하는 것을 목표로 운영됩니다.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_wr"><img src="./images/green_action_img3.jpg" alt="green-action"></div>
+                        <div class="sub_wr">
+                            <h3>BRING YOUR OWN</h3>
+                            <p>개인 텀블러와 용기 사용을 적극 권장합니다. 일부 음료 및 푸드 부스에서는 개인 용기 사용 시 혜택이 제공되며, 불필요한 일회용품 사용을 자연스럽게 줄일 수
+                                있도록 유도합니다.</p>
+                            <p>작은 선택 하나가 전체 쓰레기를 줄이는 방식이 됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            </div>
+        </section>
+        <!-- 그린액션 끝 -->
+        <section id="ticket">
+            <div class="inner flexbox">
+                <div class="tit">
+                    <h2>TICKET</h2>
+                    <p> 아래 버튼을 클릭하면 예매 전용 앱으로 연결됩니다.<br>지금 바로 예매하세요!</p>
+                    <div class="go_btn"><a href="#">바로가기</a></div>
+                </div>
+                <div class="img_wr">
+                    <img src="./images/ticket-screen.png" alt="screen">
+                </div>
+            </div>
+        </section>
+        <!-- 티켓 끝 -->
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="inner flexbox">
+            <p class="flogo"><img src="./images/logo.svg" alt="BGSF"></p>
+            <div class="finfo">
+                <p>부산광역시 수영구 광안해변로 (BGSF 특설 무대)</p>
+                <p>2026. 06. 27 (SAT) - 06. 28 (SUN)    13:00 - 21:00</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- 오픈소스 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- 제어코드 -->
+    <script>
+        $('.menu_open').click(function () {
+            $('#m_menu').css({
+                'margin-left': '-80vw',
+                'transition': 'margin-left 0.5s'
+            });
+        });
+        $('.m_close_btn').click(function () {
+            $('#m_menu').css({
+                'margin-left': '0vw',
+                'transition': 'margin-left 0.5s'
+            });
+        });
+                $('.m_list li a').click(function () {
+            $('#m_menu').css({
+                'margin-left': '0vw',
+                'transition': 'margin-left 0.5s'
+            });
+        });
+
+    </script>
+
+    <!-- time-table Swiper -->
+    <script>
+        var swiper = new Swiper(".ttSwiper", {
+            slidesPerView: 8,
+            spaceBetween: 20,
+            loop: false,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            speed: 3000,
+        });
+    </script>
+
+    <script>
+        // 1. 하단 텍스트 슬라이더 먼저 정의
+        const infoSwiper = new Swiper('.infoSwiper', {
+            loop: true,
+            effect: 'fade',
+            fadeEffect: { crossFade: true },
+            allowTouchMove: false, // 텍스트만 드래그해서 넘어가는 것 방지
+            speed: 600
+        });
+
+        // 2. 상단 포스터 슬라이더 정의 및 연동
+        const posterSwiper = new Swiper('.posterSwiper', {
+            loop: true,
+            speed: 600,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // 포스터가 움직일 때 텍스트 슬라이더도 같이 움직이게 설정
+            controller: {
+                control: infoSwiper
+            }
+        });
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".gSwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>

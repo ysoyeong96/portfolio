@@ -1637,17 +1637,17 @@ template {
   }
 
   .nav {
-    align-items: flex-start;
+    align-items: center;
     gap:0;
   }
 
   .brand{font-size: 0.8rem;}
 
   .nav-links {
-    gap: 12px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: end;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color:var(--text-muted)
   }
 

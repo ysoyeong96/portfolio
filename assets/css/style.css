@@ -1637,7 +1637,7 @@ template {
   }
 
   .nav {
-    align-items: center;
+    align-items: flex-start;
     gap:0;
   }
 
@@ -1647,7 +1647,7 @@ template {
     gap: 10px;
     flex-wrap: wrap;
     justify-content: end;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color:var(--text-muted)
   }
 

@@ -1638,6 +1638,7 @@ template {
 
   .nav {
     align-items: flex-start;
+    gap:0;
   }
 
   .brand{font-size: 0.8rem;}

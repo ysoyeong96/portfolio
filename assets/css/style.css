@@ -1663,6 +1663,10 @@ template {
     align-items: flex-start;
   }
 
+  .scroll-indicator {
+  bottom: 12px;
+  }
+
   .hero {
     min-height: auto;
     padding-top: 62px;

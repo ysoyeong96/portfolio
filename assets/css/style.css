@@ -1647,7 +1647,7 @@ template {
     gap: 12px;
     flex-wrap: wrap;
     justify-content: end;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color:var(--text-muted)
   }
 

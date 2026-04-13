@@ -1640,7 +1640,7 @@ template {
     align-items: flex-start;
   }
 
-  .nav .brand{font-size: 0.5rem;}
+  .brand{font-size: 0.8rem;}
 
   .nav-links {
     gap: 12px;

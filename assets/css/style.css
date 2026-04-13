@@ -1630,7 +1630,6 @@ template {
 @media (max-width: 760px) {
   :root {
     --container: min(100% - 28px, 100%);
-    overflow:hidden;
   }
 
   .site-header {

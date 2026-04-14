@@ -34,7 +34,6 @@ body {
     linear-gradient(180deg, #ffffff 0%, #f7f8fb 44%, #ffffff 100%);
   color: var(--text);
   line-height: 1.6;
-  box-sizing:border-box;
   overflow-x: hidden;
 }
 
@@ -696,8 +695,6 @@ button {
   align-content: center;
 }
 
-
-
 .brand01 .brand-meta .tag a{
   background-color: #fac78f;
   color:#e04040;
@@ -710,7 +707,7 @@ button {
   background-color: #1f2a67;
   color:#3ecf62;
 }
-.brand02 .brand-meta .tag:nth-child(4) a{
+.brand02 .brand-meta .tag:nth-child(3) a{
   background-color: #c12f8b;
   color:#fff;
 }
@@ -1006,6 +1003,8 @@ button {
   bottom: 0;
   z-index: 2;
 }
+
+
 
 .works-stack {
   display: grid;
@@ -1670,10 +1669,8 @@ template {
     align-items: flex-start;
   }
 
-  .brand{font-size: 0.7rem;}
-
   .nav-links {
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
     justify-content: end;
     font-size: 0.9rem;
@@ -1690,10 +1687,6 @@ template {
   .brand-slider-head {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .scroll-indicator {
-  bottom: 105px;
   }
 
   .hero {

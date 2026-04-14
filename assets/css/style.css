@@ -1196,7 +1196,8 @@ button {
 }
 
 .modal-dialog.modal-type-cardnews .modal-hero-media {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 5.5 / 6;
+  /* aspect-ratio: 1 / 1; */
 }
 
 .modal-dialog.modal-type-default .modal-hero-media {
